@@ -11,7 +11,7 @@ public class RunSeleniumTestOnBraveBrowser {
         WebDriverManager.chromedriver().setup();
         ChromeOptions chromeOptions = new ChromeOptions().setBinary("/Applications/Brave Browser.app/Contents/MacOS/Brave Browser");
         WebDriver driver = new ChromeDriver(chromeOptions);
-        driver.get("https://aakash-shinghal.medium.com/docker-cmd-vs-entrypoint-b7e59b474b45");
+        driver.get("https://aakash-shinghal.medium.com/run-selenium-webdriver-script-on-brave-browser-203462fb4c36");
         driver.quit();
     }
 }
